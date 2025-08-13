@@ -30,17 +30,23 @@ ol {
     list-style: none;
 }
 
+/* ----------------------------
+   共通レイアウト
+---------------------------- */
 .inner {
-    width: 1100px;
+    width: 97%;
     margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
     .inner {
         width: 97%;
     }
 }
 
+/* ----------------------------
+   Header
+---------------------------- */
 header {
     background: #fff;
     padding: 15px 0;
@@ -65,10 +71,13 @@ header {
     color: #333;
 }
 
+/* ----------------------------
+   Keyvisual
+---------------------------- */
 .keyvisual {
     background: url('../images/keyvisual/keyvisual.jpg') no-repeat center center/cover;
     text-align: center;
-    padding: 400px 0;
+    padding: 250px 0;
     color: #fff;
 }
 
@@ -84,6 +93,9 @@ header {
     font-weight: 700;
 }
 
+/* ----------------------------
+   News
+---------------------------- */
 .news {
     background: #e3f2fd;
     padding-top: 50px;
@@ -120,6 +132,9 @@ header {
     word-break: break-all;
 }
 
+/* ----------------------------
+   Skills
+---------------------------- */
 .skills {
     background: #fff;
     padding-top: 50px;
@@ -147,6 +162,9 @@ header {
     opacity: 1.0;
 }
 
+/* ----------------------------
+   Plan
+---------------------------- */
 .plan {
     background: #d0dfea;
     padding: 50px 0;
@@ -188,6 +206,9 @@ header {
     background: #e0efff;
 }
 
+/* ----------------------------
+   SNS Icons
+---------------------------- */
 .sns {
     background: #e3f2fd;
     padding: 200px 0;
@@ -209,6 +230,9 @@ header {
     background: #fff;
 }
 
+/* ----------------------------
+   Footer
+---------------------------- */
 footer {
     background: #cfd8dc;
     padding: 25px 0;
