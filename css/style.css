@@ -102,6 +102,14 @@ header {
     text-align: center;
 }
 
+.news-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
 .news-icon {
     width: 250px;
     margin: 0 auto;
@@ -111,6 +119,11 @@ header {
     font-size: 40px;
     letter-spacing: 10px;
     margin: 20px 0 35px;
+}
+
+.news-text-block {
+    max-width: 700px;
+    text-align: center;
 }
 
 .news-text {
@@ -125,6 +138,7 @@ header {
 .skills {
     background: #fff;
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -222,7 +236,7 @@ header {
 footer {
     background: #cfd8dc;
     padding: 25px 0;
-    text-align: center;
+    text-align: right;
 }
 
 footer p {
