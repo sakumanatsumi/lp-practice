@@ -34,7 +34,8 @@ ol {
    共通レイアウト
 ---------------------------- */
 .inner {
-    width: 97%;
+    width: 1100px;
+    max-width: 97%;
     margin: 0 auto;
 }
 
@@ -64,7 +65,7 @@ ol {
         margin-bottom: 0;
     }
 
-    .skills-wrapper a:nth-child(3) {
+    .skills-wrapper a:nth-child(3n) {
         margin-bottom: 80px;
     }
 
@@ -81,6 +82,7 @@ ol {
         max-width: 185px;
         margin: 0 15px;
     }
+    
 }
 
 /* ----------------------------
@@ -138,6 +140,7 @@ header {
 .news {
     background: #e3f2fd;
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -177,7 +180,7 @@ header {
 .skills {
     background: #fff;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -185,7 +188,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    column-gap: 100px;
+    row-gap: 0;
     margin-top: 50px;
 }
 
@@ -206,7 +210,8 @@ header {
 ---------------------------- */
 .plan {
     background: #d0dfea;
-    padding: 50px 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
