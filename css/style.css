@@ -39,6 +39,12 @@ ol {
     margin: 0 auto;
 }
 
+.hamgurger-menu {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
 @media (max-width: 1199px) {
     .keyvisual {
         padding: 250px 0;
@@ -82,7 +88,71 @@ ol {
         max-width: 185px;
         margin: 0 15px;
     }
-    
+
+}
+
+@media (max-width: 767px) {
+    .contact-btn {
+        display: none;
+    }
+
+    .hamgurger-menu {
+        display: block;
+        font-size: 24px;
+    }
+
+    .keyvisual {
+        padding: 200px 0;
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        font-size: 30px;
+    }
+
+    .news-inner {
+        flex-direction: column;
+    }
+
+    .news-icon,
+    .news-text-block {
+        width: 100%;
+    }
+
+    .skills-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-wrapper a {
+        margin-bottom: 0;
+    }
+
+    .skills-wrapper a:nth-child(3n) {
+        margin-bottom: 80px;
+    }
+
+    .plan-table th {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .plan-table td {
+        font-size: 12px;
+    }
+
+    .sns {
+        padding: 50px 0;
+    }
+
+    .sns a {
+        width: 100%;
+        margin: 0 15px;
+        padding: 50px 0;
+    }
 }
 
 /* ----------------------------
