@@ -92,11 +92,17 @@ ol {
 }
 
 @media (max-width: 767px) {
+    .inner {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
     .contact-btn {
         display: none;
     }
 
-    .hamgurger-menu {
+    .hamburger-menu {
         display: block;
         font-size: 24px;
     }
@@ -107,14 +113,17 @@ ol {
 
     .main-title {
         font-size: 40px;
+        word-break: break-word;
     }
 
     .sub-title {
         font-size: 30px;
+        word-break: break-word;
     }
 
     .news-inner {
-        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .news-icon,
@@ -131,17 +140,31 @@ ol {
         margin-bottom: 0;
     }
 
-    .skills-wrapper a:nth-child(3n) {
+    .skills-wrapper a:nth-child(3),
+    .skills-wrapper a:nth-child(7) .skills-wrapper a:nth-child(11) {
         margin-bottom: 80px;
+    }
+
+    .plan-inner {
+        overflow-x: auto;
+    }
+
+    .plan-table {
+        table-layout: fixed;
+        width: 100%;
     }
 
     .plan-table th {
         font-size: 14px;
         line-height: 22px;
+        word-break: break-word;
+        white-space: normal;
     }
 
     .plan-table td {
         font-size: 12px;
+        word-break: break-word;
+        white-space: normal;
     }
 
     .sns {
@@ -149,9 +172,9 @@ ol {
     }
 
     .sns a {
-        width: 100%;
-        margin: 0 15px;
-        padding: 50px 0;
+        display: block;
+        margin: 0 auto 50px;
+        text-align: center;
     }
 }
 
